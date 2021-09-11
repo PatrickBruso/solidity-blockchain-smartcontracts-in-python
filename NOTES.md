@@ -27,3 +27,5 @@
    6. Trustless/trust minimized agreements - don't need to trust the other party with smart contracts as these contracts are based on math.  
       1. 1 + 1 will always equal 2.
 5. Next section is on setting up an Ethereum wallet and making a transaction.  I have already done this so I skipped this section.
+6. Gas - you have to pay Eth to use the blockchain.  The more computations a transaction uses the more gas that you have to pay.  It's a fee that goes to node operators.
+7. 
