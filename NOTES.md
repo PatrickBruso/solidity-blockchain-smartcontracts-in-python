@@ -28,4 +28,10 @@
       1. 1 + 1 will always equal 2.
 5. Next section is on setting up an Ethereum wallet and making a transaction.  I have already done this so I skipped this section.
 6. Gas - you have to pay Eth to use the blockchain.  The more computations a transaction uses the more gas that you have to pay.  It's a fee that goes to node operators.
-7. 
+7. References the Blockchain 101 video by Anders Brownworth that can be found on his website or [here](https://www.youtube.com/watch?v=_160oMzblY8).
+   1. I have already watched this video and highly recommend it.
+8. Public/Private key - can use the private key to sign things and other individuals can verify that the transation is yours using the public key.
+   1. Public key is derived from using a digital signature algorithm on your private key.  Always keep your private key private.
+      1. Private key -> Public Key -> address.
+9. Different blockchains can have different algorithms and cryptographic methods for creating public/private keys.
+10. 
