@@ -34,4 +34,23 @@
    1. Public key is derived from using a digital signature algorithm on your private key.  Always keep your private key private.
       1. Private key -> Public Key -> address.
 9. Different blockchains can have different algorithms and cryptographic methods for creating public/private keys.
-10. 
+10. Nodes - every node keeps a list of the entire blockchain transaction, and malicious nodes can be removed from the blockchain for not matching the consensus transactions.
+11. Consensus - mechanism used to agree on the state of the blockchain.
+    1. Nakamoto consensus - proof of work and longest chain rule determine which blockchain is the official blockchain.
+        1. The longer the block, the harder it is computationally to attack and change.
+12. Sybil resistance mechanisms - used to prevent bad actors from spamming blockchain with malicious nodes.
+    1. Proof of Work - OG method, have to mine and spend computational power to add transactions to the blockchain.  Theoretically, if you had the computational power to be a bad actor you would be better off mining for rewards.
+        1. 51% attack - if you own the longest chain/most computation, you can become a bad actor. This has happened on ETH Classic.
+        2. PoW uses a lot of electricity - not environmentally friendly.
+    2. Proof of Stake - newer method, you "stake" your coin (ETH 2.0, Algo, etc.) and if you misbehave your lose your stake.
+        1. Miners are no longer mining, instead they act as validators.  They are paid transaction fees for validating transactions.
+        2. Less electricity needed, but not as decentralized since it relies on nodes to validate transactions.
+13. Sharding - when you shit your pants.
+14. Layers:
+    1. Layer 1 - actual blockchain.
+    2. Layer 2 - application that runs on a blockchain.
+
+## Section 1 - Simple Storage
+
+See course github located [here](https://github.com/smartcontractkit/full-blockchain-solidity-course-py) and check out the [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.6/index.html).
+
