@@ -54,3 +54,4 @@
 
 See course github located [here](https://github.com/smartcontractkit/full-blockchain-solidity-course-py) and check out the [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.6/index.html).
 
+This course uses the [Remix](https://remix.ethereum.org/) Ethereum IDE.  I will be using Remix to go through the course but also VS Code with the solidity extension to create the programs in this repository.
