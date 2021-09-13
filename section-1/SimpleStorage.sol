@@ -5,8 +5,8 @@ pragma solidity >=0.6.0 <0.9.0; // sets version between 0.6.0 and 0.9.0
 // Contract is the Solidity version of a class in OOP
 contract SimpleStorage {
 
-    uint256 favoriteNumber = 6;  // variable unisnged int of 256 bits
-    uint256 otherNumber;  // this will get initialized to 0
+    uint256 public favoriteNumber;  // variable unisnged int of 256 bits. this will get initialized to 0.  The public keyword defines visability of the variable.
+    uint256 otherNumber = 6;
     /*
     bool favoriteBool = true;  // standard boolean variable
     string favoriteString = "String";  // string variable
